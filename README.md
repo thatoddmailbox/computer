@@ -1,9 +1,11 @@
 # computer
 ![Computer](./computer.jpg)
 
-A microcomputer built from Soviet-era parts.
+A microcomputer built from Soviet-era parts, developed for a History research project looking into technology behind the Iron Curtain.
 
-This repository serves as a place to link to the respositories for the multiple different components involved in the computer's design and construction.
+The computer's design is based around a [U880](https://en.wikipedia.org/wiki/U880) processor, manufactured by the East German government. It has 8 KB of ROM and 4 KB of RAM. (unfortunately, the Soviet ROM and RAM parts I purchased were defective, so the actual computer uses modern-day but functionally equivalent parts.) For input and output, it features a serial port, a 128x64 LCD display (a modern-day substitute for the bulky CRT monitors of the time, to make the computer easier to transport and use), and 6 buttons. These specifications, combined with the datecodes on the different parts, place the computer somewhere in the late 80s.
+
+This repository serves as a place to link to the respositories for the different components involved in the computer's design and construction.
 
 * [computer-hw](https:///github.com/thatoddmailbox/computer-hw): The electrical schematic and PCB layout files, in KiCad and PDF formats.
 * [computer-fw](https://github.com/thatoddmailbox/computer-fw): The source code to the computer's firmware, written in Z80 assembly language.
